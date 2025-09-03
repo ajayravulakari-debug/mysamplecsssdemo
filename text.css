@@ -1,0 +1,16 @@
+Simple.css Demo Website ## Links & Buttons [I'm a hyperlink](example.com)  
+ I'm a button  
+ [I'm a button with a link](example.com)
+ ## Other Typography Elements Bold text,
+Italic text,
+Underlined text Highlighted text,
+`Inline code`,
+Alt+F4 ## Lists ### Bulleted list * Item 1 * Item 2 * Item 3 ### Numbered list 1. Do this thing 2. Do that thing 3. Do the other thing ## Blockquotes>Friends don’t spy;
+true friendship is about privacy,
+too.>– Stephen King ## Code Blocks ```css body {
+    color: var(--text);
+    background: var(--bg);
+    font-size: 1.15rem;
+    line-height: 1.5;
+    margin: 0;
+}

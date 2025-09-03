@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple.css Demo Website</title>
+    <link rel="stylesheet" href="https://cdn.simplecss.org/simple.min.css" />
+    <a href="https://frontpage.com">Visit Example</a>
+
+</head>
+
+<body>
+    <h1>Simple.css Demo Website</h1>
+
+    <h2>Links &amp; Buttons</h2>
+    <p>
+        <a href="https://example.com">I'm a hyperlink</a><br>
+        <button>I'm a button</button><br>
+        <a href="https://example.com"><button>I'm a button with a link</button></a>
+    </p>
+
+    <h2>Other Typography Elements</h2>
+    <p>
+        <b>Bold text</b>, <i>Italic text</i>, <u>Underlined text</u><br>
+        <mark>Highlighted text</mark>, <code>Inline code</code>, Alt+F4
+    </p>
+
+    <h2>Lists</h2>
+    <h3>Bulleted list</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+    </ul>
+
+    <h3>Numbered list</h3>
+    <ol>
+        <li>Do this thing</li>
+        <li>Do that thing</li>
+        <li>Do the other thing</li>
+    </ol>
+
+    <h2>Blockquotes</h2>
+    <blockquote>
+        Friends don’t spy; true friendship is about privacy, too.<br> — Stephen King
+    </blockquote>
+
+    <h2>Code Blocks</h2>
+    <pre><code>
+body {
+  color: var(--text);
+  background: var(--bg);
+  font-size: 1.15rem;
+  line-height: 1.5;
+  margin: 0;
+}
+  </code></pre>
+
+    <h2>Notice Box</h2>
+    <div class="notice">
+        This is a notice box. It's useful for calling out snippets of information. Cool, huh?
+    </div>
+
+    <h2>Aside</h2>
+    <aside>Your aside content goes here.</aside>
+
+    <h2>Article</h2>
+    <article>
+        <h3>This is an article</h3>
+        <p>Some content will go here, which will be inside your article.</p>
+    </article>
+
+    <h2>Section</h2>
+    <section>
+        <h3>This is a section</h3>
+        <p>Some content will go here, which will be inside your section.</p>
+    </section>
+
+    <h2>Images</h2>
+    <p>
+        <img src="#" alt="A dog on an iPad">
+        <img src="#" alt="This is a black swan"> This is a black swan
+    </p>
+
+    <h2>Details &amp; Accordions</h2>
+    <details>
+        <summary>Spoiler alert!</summary>
+        You smell.
+        <p>FAQ 1<br>Can you smell that?</p>
+        <p>FAQ 2<br>Something really stinks.</p>
+        <p>FAQ 3<br>Oh, it's you.</p>
+    </details>
+
+    <h2>Tables</h2>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Number</th>
+                <th>Opinion on cheese</th>
+                <th>Favourite tea</th>
+                <th>Colour of choice</th>
+                <th>Unusual fact</th>
+                <th>Horse?</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jackie</td>
+                <td>012345</td>
+                <td>Sometimes</td>
+                <td>Earl grey</td>
+                <td>Blue</td>
+                <td>Communicates exclusively in metaphors</td>
+                <td>Aye</td>
+            </tr>
+            <tr>
+                <td>Lucy</td>
+                <td>112346</td>
+                <td>Only on Tuesdays</td>
+                <td>The green one</td>
+                <td>The green one</td>
+                <td>Caught a glimpse of an Australian badger</td>
+                <td>Aye</td>
+            </tr>
+            <tr>
+                <td>David</td>
+                <td>493029</td>
+                <td>Always eat the rind</td>
+                <td>London fog</td>
+                <td>Purple</td>
+                <td>Has never been to London</td>
+                <td>Aye</td>
+            </tr>
+            <tr>
+                <td>Kerry</td>
+                <td>395499</td>
+                <td>It's on the moon</td>
+                <td>Camomile</td>
+                <td>Yellow</td>
+                <td>Has been to the moon</td>
+                <td>Aye</td>
+            </tr>
+            <tr>
+                <td>Steve</td>
+                <td>002458</td>
+                <td>No</td>
+                <td>Black tea (ISO 3103)</td>
+                <td>Chestnut</td>
+                <td>Has a 350° field of view</td>
+                <td>Neigh</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <h2>Forms</h2>
+    <form>
+        <fieldset>
+            <legend>Title</legend>
+            <label><input type="radio" name="title" value="Mr"> Mr</label>
+            <label><input type="radio" name="title" value="Miss"> Miss</label>
+            <label><input type="radio" name="title" value="Mrs"> Mrs</label>
+            <label><input type="radio" name="title" value="Other"> Other</label>
+        </fieldset>
+        <p>
+            <label>First name <input type="text" name="firstName"></label><br>
+            <label>Surname <input type="text" name="surname"></label><br>
+            <label>Email <input type="email" name="email"></label>
+        </p>
+        <p>
+            <label>Enquiry type:
+        <select name="enquiry">
+          <option>Sales</option>
+          <option>Support</option>
+          <option>Billing</option>
+        </select>
+      </label>
+        </p>
+        <p>
+            <label>Message <br><textarea name="message" rows="4"></textarea></label>
+        </p>
+        <p>
+            <label>Choose a car:
+        <select name="car">
+          <option>Volvo</option>
+          <option>Saab</option>
+          <option>Opel</option>
+          <option>Audi</option>
+        </select>
+      </label>
